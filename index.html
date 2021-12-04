@@ -5,25 +5,31 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>xelA XP Calculator</title>
 </head>
 
 <body>
-    <div class="continer">
-        <div id="general">
-            <label for="current-xp">Current XP</label>
-            <input type="number" pattern="[0-9]*" id="current-xp" min="0" />
-            <label for="level">Desired Level</label>
-            <input type="number" pattern="[0-9]*" id="level" />
-        </div>
+    <div class="container">
+        <div class="header">
+            <h1>xelA XP Calculator</h1>
+            <div id="general">
+                <label for="current-xp">Current XP</label>
+                <input type="number" pattern="[0-9]*" id="current-xp" min="0" /> <br />
+                <label for="level">Desired Level</label>
+                <input type="number" pattern="[0-9]*" id="level" />
+            </div>
 
-        <div id="time">
-            <label for="time-join">Time</label>
-            <input type="datetime-local" id="time-join" />
+            <div id="time">
+                <label for="time-join">Time</label>
+                <input type="datetime-local" id="time-join" />
+            </div>
+            <button class="submit">Submit</button>
+            <!--Days and Hours  for the Estimated XP after Inputted Time Calculator, wont be needed becuase we have the date input. -->
         </div>
-        <button class="submit">Submit</button>
-        <!--Days and Hours  for the Estimated XP after Inputted Time Calculator, wont be needed becuase we have the date input. -->
-    </div>
+        <div class="footer">
+            <h6>Made by <a href="https://discord.com/channels/@me/704618438492028980">punkin#0001</a> and <a href="https://discord.com/channels/@me/915373486048968765">No Longer Active#3072</a> </h6>
+        </div>
 </body>
 
 <!--script.js will be used for index.html I will use it if needed-->
