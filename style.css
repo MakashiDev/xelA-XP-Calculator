@@ -42,9 +42,21 @@ button {
     padding: 4px 5px;
     width: 100%;
     text-align: center;
+    transition: .5s ease-in-out;
+}
+
+button:hover {
+    background: #000000ab;
+    color: #00c3ff;
 }
 
 a {
-    text-decoration: underline;
+    transition: .5s ease-in-out;
+    text-decoration: none;
     color: #0E7AFE;
+}
+
+a:hover {
+    transition: .5s ease-in-out;
+    color: #00c3ff;
 }
