@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+html {
+    background: url(https://source.unsplash.com/1600x900/?landscape,forest) no-repeat center center fixed;
+    background-size: cover;
+    transition: .5s ease-in-out;
+}
+
+.container {
+    font-family: 'Spectral', serif;
+    color: white;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 3px black;
+    border-style: solid;
+    padding: 15px;
+    border-radius: 30px;
+    background: #000000ad;
+    transition: .5s ease-in-out;
+    text-align: center;
+}
+
+input {
+    outline: none;
+    border-radius: 8.5px;
+    border: none;
+    font-family: 'Spectral', serif;
+    background-color: #0000008c;
+    color: white;
+    margin: 3px;
+}
+
+button {
+    background: #0000008c;
+    border: none;
+    outline: none;
+    color: #0E7AFE;
+    border-radius: 15px;
+    margin: 0 .5vw;
+    padding: 4px 5px;
+    width: 100%;
+    text-align: center;
+}
+
+a {
+    text-decoration: underline;
+    color: #0E7AFE;
+}
