@@ -4,3 +4,15 @@ document.getElementsByClassName("submit")[0].onclick = function() {
     localStorage.setItem("date", document.getElementById("time-join").value);
     localStorage.setItem("level", document.getElementById("level").value);
 };
+
+document.getElementById("current-xp").onchange = function() {
+    if (document.getElementById("current-xp").value < 0) {
+        document.getElementById("current-xp").value = 0;
+    }
+};
+
+document.getElementById("level").onchange = function() {
+    if (document.getElementById("level").value < 0) {
+        document.getElementById("level").value = 0;
+    }
+};
