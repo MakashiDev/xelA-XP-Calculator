@@ -1,36 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <title>xelA XP Calculator</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <div class="container">
-        <div class="header">
-            <h1>xelA XP Calculator</h1>
-            <div id="general">
-                <label for="current-xp">Current XP</label>
-                <input type="number" pattern="[0-9]*" id="current-xp" min="0" />
-                <br />
-                <label for="level">Desired Level</label>
-                <input type="number" pattern="[0-9]*" id="level" />
-            </div>
+      <div class="header">
+        <h1>xelA XP Calculator</h1>
+        <div id="general">
+          <label for="current-xp">Current XP</label>
+          <input type="number" pattern="[0-9]*" id="current-xp" min="0" />
+          <br />
+          <label for="level">Desired Level</label>
+          <input type="number" pattern="[0-9]*" id="level" />
+        </div>
 
-            <div id="time">
-                <label for="time-join">Time</label>
-                <input type="datetime-local" id="time-join" />
-            </div>
-            <button class="submit">Submit</button>
-            <!--Days and Hours  for the Estimated XP after Inputted Time Calculator, wont be needed becuase we have the date input. -->
+        <div id="time">
+          <label for="time-join">Time</label>
+          <input type="datetime-local" id="time-join" />
+        </div>
+        <button class="submit">Submit</button>
+        <!--Days and Hours  for the Estimated XP after Inputted Time Calculator, wont be needed becuase we have the date input. -->
 
-            <div class="footer">
-                <h6>
-                    Made by<a href="https://discord.com/channels/@me/704618438492028980">punkin#0001</a
+        <div class="footer">
+          <h6>
+            Made by<a href="https://discord.com/channels/@me/704618438492028980"
+              >punkin#0001</a
             >and<a href="https://discord.com/channels/@me/915373486048968765"
               >No Longer Active#3072</a
             >
@@ -40,17 +40,14 @@
     </div>
 
     <div id="results">
-      <h2 id="date-join">
-    </h2>
-    <h2 id="current-date">
-      </h2>
+      <h2 id="date-join"></h2>
+      <h2 id="current-date"></h2>
 
       <h3 id="xp-until-lvl"></h3>
 
       <h3 id="mean-messages"></h3>
 
-      <h3 id="date-until-lvl">/h3>
-
+      <h3 id="date-until-lvl"></h3>
       <button id="reset">Reset</button>
     </div>
   </body>
