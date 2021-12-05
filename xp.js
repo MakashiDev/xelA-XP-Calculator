@@ -11,7 +11,6 @@ document.getElementById("reset").onclick = function () {
 };
 
 function calculateXP() {
-  alert("Calculating...");
   /* Variables */
   // User inputs
   var currentXP = document.getElementById("current-xp").value;
