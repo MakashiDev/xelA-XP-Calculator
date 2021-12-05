@@ -1,8 +1,8 @@
 # xelA-XP-Calculator
 
-### xelA is a bot that does many things, like levels
+xelA is a bot that does many things, like levels
 
-### Don't you want to know how much xp or time until you reach the next level?
+Don't you want to know how much xp or time until you reach the next level?
 
 ## Well know you can!
 
