@@ -43,6 +43,8 @@ button {
     width: 100%;
     text-align: center;
     transition: .5s ease-in-out;
+    font-family: 'Spectral', serif;
+    font-weight: bold;
 }
 
 button:hover {
@@ -59,4 +61,33 @@ a {
 a:hover {
     transition: .5s ease-in-out;
     color: #00c3ff;
+}
+
+#results {
+    display: none;
+    font-family: 'Spectral', serif;
+    color: white;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 3px black;
+    border-style: solid;
+    padding: 15px;
+    border-radius: 30px;
+    background: #000000ad;
+    transition: .5s ease-in-out;
+}
+
+h2:hover,
+h3:hover {
+    transition: .5s ease-in-out;
+    color: #00c3ff;
+}
+
+h3,
+h2 {
+    transition: .5s ease-in-out;
+    color: white;
 }
