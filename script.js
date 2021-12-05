@@ -16,3 +16,7 @@ document.getElementById("level").onchange = function() {
         document.getElementById("level").value = 0;
     }
 };
+
+document.getElementsByTagName("body")[0].onload = function() {
+    document.getElementById("time-join").value = localStorage.getItem("date");
+};
