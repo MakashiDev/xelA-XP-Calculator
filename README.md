@@ -1,2 +1,9 @@
 # xelA-XP-Calculator
-A Calculator that calculates the needed amount of XP to reach a certain level!
+
+### xelA is a bot that does many things, like levels
+
+### Don't you want to know how much xp or time until you reach the next level?
+
+## Well know you can!
+
+###### Hosted on [XP](https://www.xp.makashi.dev)
